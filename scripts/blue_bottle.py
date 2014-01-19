@@ -17,9 +17,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-    for i, filename in enumerate(sorted(os.listdir('.'))):
-        print filename
-        img = Image.open(filename)
